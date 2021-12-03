@@ -13,8 +13,7 @@ function Home() {
           img="https://www.ewoman.gr/sites/default/files/inline-images/3-ewoman_8.jpg"
           title="The everyday Salad"
           description="Dance with me and LEVEL UP your life"
-          label="Dance"
-          path="/services" />
+           />
 
           <Cards
           img="https://www.ewoman.gr/sites/default/files/inline-images/3-ewoman_8.jpg"
