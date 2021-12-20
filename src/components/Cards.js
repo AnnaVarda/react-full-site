@@ -4,8 +4,7 @@ import { Link } from 'react-router-dom';
 
 function Cards(props) {
     return (
-        <div className="card">
-				
+      <div className="card">	
           <div className="card__body">
 						<img src={props.img} alt="" className="card__image" />		
 							<h2 className="card__title">{props.title}</h2>
@@ -14,7 +13,7 @@ function Cards(props) {
 				<Link to="/services">
 					<button className="card__btn">Learn more</button>
 				</Link>
-				</div>
+			</div>
     );
 }
 

@@ -23,7 +23,7 @@ function Home() {
           description="Pilates - Flexibility - Rehab" />
 
           <Cards
-          img=".images/IMG_5835.JPG"
+          img="/images/IMG_5835.JPG"
           title="Dance Therapy Classes"
           description="Primitive Expression - Afro Purcussion - Ecstatic" />
         </div>
