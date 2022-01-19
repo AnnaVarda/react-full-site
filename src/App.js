@@ -3,7 +3,8 @@ import Navbar from './components/Navbar';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './components/pages/Home';
-import Services from './components/pages/Services';
+import Fitness from './components/pages/Fitness';
+import Dance from './components/pages/Dance';
 import SignUp from './components/pages/SignUp';
 
 
@@ -14,7 +15,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route  path='/' element= {<Home/>} />
-        <Route path='/services' element= {<Services/>} />
+        <Route path='/fitness' element= {<Fitness/>} />
+        <Route path='/dance' element= {<Dance/>} />
         <Route path='/sign-up' element= {<SignUp/>} />
       </Routes>
     
