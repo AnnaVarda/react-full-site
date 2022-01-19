@@ -15,21 +15,21 @@ function Home() {
           img="https://www.ewoman.gr/sites/default/files/styles/703xh/public/2019-11/5-ewoman.jpg?itok=huR3qwMA"
           title="Social Dance Classes"
           description="Salsa - Bachata - Kizomba"
-          path="dance"
+          url="dance"
            />
 
           <Cards
           img="/images/side plank.jpg"
           title="Fitness Classes"
           description="Pilates - Flexibility - Rehab"
-          path="fitness"
+          url="fitness"
            />
 
           <Cards
           img="/images/IMG_5835.JPG"
           title="Dance Therapy Classes"
           description="Primitive Expression - Afro Purcussion - Ecstatic"
-        
+          url="articles"
            />
         </div>
       </>

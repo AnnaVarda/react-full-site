@@ -10,7 +10,7 @@ function Cards(props) {
 							<h2 className="card__title">{props.title}</h2>
 							<p className="card__description">{props.description}</p>
 					</div>
-				<Link to={props.path}>
+				<Link to={props.url}>
 					<button className="card__btn">Learn more</button>
 				</Link>
 			</div>
