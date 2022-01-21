@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './components/pages/Home';
+import About from './components/pages/About';
 import Fitness from './components/pages/Fitness';
 import Dance from './components/pages/Dance';
 import SignUp from './components/pages/SignUp';
@@ -15,6 +16,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route  path='/' element= {<Home/>} />
+        <Route  path='/about' element= {<About/>} />
         <Route path='/fitness' element= {<Fitness/>} />
         <Route path='/dance' element= {<Dance/>} />
         <Route path='/sign-up' element= {<SignUp/>} />
