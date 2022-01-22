@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css';
+import { Button } from '../Button';
 
 function About() {
   return <div className='about'>
@@ -20,7 +21,13 @@ function About() {
         <p className='last'>Ας βαδίσουμε μαζί λοιπόν προς την πορεία την αναβάθμισης της ζωής σου!
 			</p>
 			</div>
-    </div>
+      </div>
+      <button className='about-btns'>Dance with Me</button>
+      <button className='about-btns'>Let's workout</button>
+
+       
+      
+    
 </div>;
 }
 
