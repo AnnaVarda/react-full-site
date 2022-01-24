@@ -4,12 +4,17 @@ h2 {
 }
 
 p {
-	margin-top: 10px;
+	margin-top: 20px;
+}
+
+.back-to-home {
+	display: block;
 }
 
 .about {
 	width: 100%;
 	padding: 78px 0px;
+	text-align: center;
 }
 
 .about img {
@@ -34,14 +39,15 @@ p {
 	justify-content: space-around;
 }
 
-.about-btns {	
+.about-btns {
+	display: inline-block;
+	text-align: center;
 	font-size: 2rem;
 	cursor: pointer;
 	text-decoration: none;	
 	padding: 0.25em 1em;
 	border-radius: 0.25em;	
-	margin: 0 auto;
-	margin-top: 25px;	
+	margin: 20px 10px;	
 }
 
 .dance-btn {
@@ -65,7 +71,9 @@ p {
 
 	.about-btns {
 		display: block;
-		text-decoration: none;	
+		text-decoration: none;
+		margin: 0 auto;	
+		margin-bottom: 20px;
 	}
 
 	h1 {
