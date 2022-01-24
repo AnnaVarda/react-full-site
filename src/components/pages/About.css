@@ -23,10 +23,10 @@ p {
 
 .last {
 	margin-top: 15px;
+	margin-bottom: 40px;
 }
 
 .main {
-	
 	max-width: 95%;
 	margin: 0 auto;
 	display: flex;
@@ -34,17 +34,22 @@ p {
 	justify-content: space-around;
 }
 
-.about-btns {
-	
+.about-btns {	
 	font-size: 2rem;
 	cursor: pointer;
 	text-decoration: none;	
 	padding: 0.25em 1em;
 	border-radius: 0.25em;	
-	position: relative;
-	left:500px;
-	bottom: -30px;
-	margin: 20px;
+	margin: 0 auto;
+	margin-top: 25px;	
+}
+
+.dance-btn {
+	padding: 5px 8px;
+}
+
+.fitness-btn {
+	padding: 5px 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -55,16 +60,13 @@ p {
 
 	.about img {
 		max-width: 100%;
-		margin-bottom: 30px;
-		
+		margin-bottom: 30px;	
 	}
 
 	.about-btns {
 		display: block;
-		text-decoration: none;
-		max-width: 100%;	
+		text-decoration: none;	
 	}
-
 
 	h1 {
 		display: none;
@@ -79,8 +81,7 @@ p {
 	}
 
 	p {
-		font-size: 15px;
-		
+		font-size: 15px;	
 	}
 
 	
