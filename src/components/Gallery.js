@@ -33,14 +33,14 @@ const getImg = (imgSrc) =>{
   return (
       <>
       <div className={model? "model open" : "model"}>
-        <img src={tempImgSrc} />
+        <img src={tempImgSrc} alt="dance images" />
         <CloseIcon onClick={() => setModel(false)}/> 
       </div>
       <div className="gallery">
           {data.map((item, index)=>{
               return(
                   <div className="pics" key={index} onClick={()=> getImg(item.imgSrc)}>
-                      <img src={item.imgSrc} style={{width: '100%'}} />
+                      <img src={item.imgSrc} style={{width: '100%'}} alt="dance images" />
 
                   </div>
               )
