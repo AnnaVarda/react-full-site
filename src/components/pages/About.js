@@ -24,7 +24,7 @@ function About() {
     </div>
       <a href="http://localhost:3000/dance"><button className='about-btns dance-btn'>Dance with Me</button></a>
       <a href="http://localhost:3000/fitness"><button className='about-btns fitness-btn'>Let's workout</button></a>    
-    <a className="back-to-home"href="http://localhost:3000/">Back to Homepage</a>
+    <a className="back-to-home"href="https://jovial-morse-049d7a.netlify.app/">Back to Homepage</a>
   </div>;
 }
 
