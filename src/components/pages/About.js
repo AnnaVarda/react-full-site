@@ -22,8 +22,8 @@ function About() {
 			</p>
 			</div>
     </div>
-      <a href="http://localhost:3000/dance"><button className='about-btns dance-btn'>Dance with Me</button></a>
-      <a href="http://localhost:3000/fitness"><button className='about-btns fitness-btn'>Let's workout</button></a>    
+      <a href="/dance"><button className='about-btns dance-btn'>Dance with Me</button></a>
+      <a href="/fitness"><button className='about-btns fitness-btn'>Let's workout</button></a>    
     <a className="back-to-home"href="/">Back to Homepage</a>
   </div>;
 }
