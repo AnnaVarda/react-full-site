@@ -6,6 +6,7 @@
     -moz-column-width: auto;
     column-width: auto;
     padding: 0 12px;
+    background-color: black;
 }
 
 .gallery .pics {
