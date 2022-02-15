@@ -9,6 +9,13 @@ import Img5 from '../img/crossindArms.jpg';
 import Img6 from '../img/goldenTree.jpg';
 import Img7 from '../img/retroMarket.jpg';
 import Img8 from '../img/eyesProfileCold.jpg';
+import Img9 from '../img/B4UGroup.jpg';
+import Img10 from '../img/B4UCouple.jpg';
+import Img11 from '../img/AJ.jpg';
+import Img12 from '../img/AlterEgoRohas.jpg';
+import Img13 from '../img/KizoBomba1.0.JPG';
+import Img14 from '../img/poluthrona1.jpg';
+import Img15 from '../img/B4UStreet.jpeg';
 
 
 const Gallery = () => {
@@ -45,6 +52,34 @@ const Gallery = () => {
         {
             id: 8,
             imgSrc: Img8,
+        },
+        {
+            id: 9,
+            imgSrc: Img9,
+        },
+        {
+            id: 10,
+            imgSrc: Img10,
+        },
+        {
+            id: 11,
+            imgSrc: Img11,
+        },
+        {
+            id: 12,
+            imgSrc: Img12,
+        },
+        {
+            id: 13,
+            imgSrc: Img13,
+        },
+        {
+            id: 14,
+            imgSrc: Img14,
+        },
+        {
+            id: 15,
+            imgSrc: Img15,
         }
     ]
 
