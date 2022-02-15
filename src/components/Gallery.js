@@ -16,6 +16,25 @@ import Img12 from '../img/AlterEgoRohas.jpg';
 import Img13 from '../img/KizoBomba1.0.JPG';
 import Img14 from '../img/poluthrona1.jpg';
 import Img15 from '../img/B4UStreet.jpeg';
+import Img16 from '../img/ClassicDebut.jpg';
+import Img17 from '../img/ClassicLiftFinale.jpg';
+import Img18 from '../img/ClassicLiftSemba.jpg';
+import Img19 from '../img/ClassicLiftSplit.jpg';
+import Img20 from '../img/ClassicPaso.jpg';
+import Img21 from '../img/Danzaloon2019.jpg';
+import Img22 from '../img/KizoBomba3DLift.jpg';
+import Img23 from '../img/KizoBombaCross.jpg';
+import Img24 from '../img/KizoBombaFinale.jpg';
+import Img25 from '../img/KizoBombaLift.jpg';
+import Img26 from '../img/KizombadaLesson1.jpg';
+import Img27 from '../img/KizombadaLesson2.jpg';
+import Img28 from '../img/KizombadaLesson3.jpg';
+import Img29 from '../img/KizombadaLesson4.jpg';
+import Img30 from '../img/PartyPose.jpg';
+import Img31 from '../img/PartyTattoo.jpg';
+import Img32 from '../img/SalsaTurn.jpg';
+import Img33 from '../img/SSFLesson.jpg';
+import Img34 from '../img/SyrosPose.jpg';
 
 
 const Gallery = () => {
@@ -80,7 +99,84 @@ const Gallery = () => {
         {
             id: 15,
             imgSrc: Img15,
+        },
+        {
+            id: 16,
+            imgSrc: Img16,
+        },
+        {
+            id: 17,
+            imgSrc: Img17,
+        },
+        {
+            id: 18,
+            imgSrc: Img18,
+        },
+        {
+            id: 19,
+            imgSrc: Img19,
+        },
+        {
+            id: 20,
+            imgSrc: Img20,
+        },
+        {
+            id: 21,
+            imgSrc: Img21,
+        },
+        {
+            id: 22,
+            imgSrc: Img22,
+        },
+        {
+            id: 23,
+            imgSrc: Img23,
+        },
+        {
+            id: 24,
+            imgSrc: Img24,
+        },
+        {
+            id: 25,
+            imgSrc: Img25,
+        },
+        {
+            id: 26,
+            imgSrc: Img26,
+        },
+        {
+            id: 27,
+            imgSrc: Img27,
+        },
+        {
+            id: 28,
+            imgSrc: Img28,
+        },
+        {
+            id: 29,
+            imgSrc: Img29,
+        },
+        {
+            id: 30,
+            imgSrc: Img30,
+        },
+        {
+            id: 31,
+            imgSrc: Img31,
+        },
+        {
+            id: 32,
+            imgSrc: Img32,
+        },
+        {
+            id: 33,
+            imgSrc: Img33,
+        },
+        {
+            id: 34,
+            imgSrc: Img34,
         }
+    
     ]
 
 const [model, setModel] = useState(false);
