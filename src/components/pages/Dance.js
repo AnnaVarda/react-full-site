@@ -5,8 +5,8 @@ import './Dance.css';
 function Dance() {
     return (
         <div>
-             <h1 style={{textAlign: 'center'}}>Dance Image Gallery</h1>
-            <h4 style={{textAlign: 'center'}}>All services are listed here</h4>
+             <h1>Gallery</h1>
+            
 						<Gallery />
         </div>
     )

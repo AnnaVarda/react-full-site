@@ -5,8 +5,10 @@
     -webkit-column-width: auto;
     -moz-column-width: auto;
     column-width: auto;
-    padding: 0 12px;
+    padding: 80px 70px;
     background-color: black;
+    background-image: url('../img/crossindArms.jpg');
+    background-size: contain;
 }
 
 .gallery .pics {

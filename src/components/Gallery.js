@@ -35,7 +35,22 @@ import Img31 from '../img/PartyTattoo.jpg';
 import Img32 from '../img/SalsaTurn.jpg';
 import Img33 from '../img/SSFLesson.jpg';
 import Img34 from '../img/SyrosPose.jpg';
-
+import Img35 from '../img/Georgas.jpg';
+import Img36 from '../img/Anastasinis.jpg';
+import Img37 from '../img/SoloJump.jpg';
+import Img38 from '../img/AA1.jpg';
+import Img39 from '../img/AA2.jpg';
+import Img40 from '../img/AA3.jpg';
+import Img41 from '../img/AA4.jpg';
+import Img42 from '../img/AK1.jpg';
+import Img43 from '../img/AK2.jpg';
+import Img44 from '../img/Spyros1.jpg';
+import Img45 from '../img/Spyros2.jpg';
+import Img46 from '../img/Medal.jpg';
+import Img47 from '../img/PasoSpanish.jpg';
+import Img48 from '../img/SSFPoster.jpg';
+import Img49 from '../img/FlashMob.JPG';
+import Img50 from '../img/2ndplace.jpg';
 
 const Gallery = () => {
 
@@ -175,6 +190,70 @@ const Gallery = () => {
         {
             id: 34,
             imgSrc: Img34,
+        },
+        {
+            id: 35,
+            imgSrc: Img35,
+        },
+        {
+            id: 36,
+            imgSrc: Img36,
+        },
+        {
+            id: 37,
+            imgSrc: Img37,
+        },
+        {
+            id: 38,
+            imgSrc: Img38,
+        },
+        {
+            id: 39,
+            imgSrc: Img39,
+        },
+        {
+            id: 40,
+            imgSrc: Img40,
+        },
+        {
+            id: 41,
+            imgSrc: Img41,
+        },
+        {
+            id: 42,
+            imgSrc: Img42,
+        },
+        {
+            id: 43,
+            imgSrc: Img43,
+        },
+        {
+            id: 44,
+            imgSrc: Img44,
+        },
+        {
+            id: 45,
+            imgSrc: Img45,
+        },
+        {
+            id: 46,
+            imgSrc: Img46,
+        },
+        {
+            id: 47,
+            imgSrc: Img47,
+        },
+        {
+            id: 48,
+            imgSrc: Img48,
+        },
+        {
+            id: 49,
+            imgSrc: Img49,
+        },
+        {
+            id: 50,
+            imgSrc: Img50,
         }
     
     ]
