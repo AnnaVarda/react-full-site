@@ -3,6 +3,7 @@ import '../../App.css';
 import HeroSection from '../HeroSection';
 import Cards from '../Cards';
 import '../Cards.css';
+import Footer from '../Footer';
 
 
 
@@ -32,6 +33,7 @@ function Home() {
           url="articles"
            />
         </div>
+        <Footer />
       </>
     );
 }
