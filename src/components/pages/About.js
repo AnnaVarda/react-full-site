@@ -1,9 +1,11 @@
 import React from 'react';
 import './About.css';
+import Footer from '../Footer';
 
 
 function About() {
-  return <div className='about'>
+  return (
+  <div className='about'>
     <div className='main'>
     <h2 className='on-mobile'>Ας γνωριστούμε λοιπόν...</h2>
 			<img src="images/sosti3.jpg" alt="about-me"/>
@@ -25,7 +27,9 @@ function About() {
       <a href="/dance"><button className='about-btns dance-btn'>Dance with Me</button></a>
       <a href="/fitness"><button className='about-btns fitness-btn'>Let's workout</button></a>    
     <a className="back-to-home"href="/">Back to Homepage</a>
-  </div>;
+     <Footer/>
+  </div>
+  )
 }
 
 export default About;

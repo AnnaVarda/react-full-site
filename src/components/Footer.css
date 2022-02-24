@@ -1,3 +1,25 @@
 .main-footer {
-    color: white;
+    position: sticky;
+    background-color: black;
+    padding: 50px 50px;
 }
+
+.brands {
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(12rem, 16rem));
+    justify-content: center;  
+}
+
+.styleBrands {
+    color: white;
+    font-size: 40px;
+}
+
+.styleBrands :hover {
+    color: red;
+}
+ .copyright {
+     color: white;
+     text-align: center;
+     padding-top: 30px;
+ }

@@ -1,6 +1,7 @@
 import React from 'react';
 import Gallery from '../Gallery';
 import './Dance.css';
+import Footer from '../Footer';
 
 function Dance() {
     return (
@@ -8,6 +9,7 @@ function Dance() {
              <h1>Gallery</h1>
             
 						<Gallery />
+                        <Footer />
         </div>
     )
 }

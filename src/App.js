@@ -8,7 +8,6 @@ import Fitness from './components/pages/Fitness';
 import Dance from './components/pages/Dance';
 
 
-
 function App() {
   return (
   <div>
