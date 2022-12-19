@@ -5,7 +5,7 @@
     grid-template-columns: repeat(auto-fit,minmax(12rem, 16rem));
     gap:3rem;
     justify-content: center;
-    background-color: white;
+    background-color: #F5F5EF;
     padding-bottom: 30px;
 }
 
